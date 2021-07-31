@@ -1,0 +1,26 @@
+html{
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+.heading{
+    text-align: center;
+}
+
+.mainDiv{
+    display: flex;
+    height: 600px;
+    width: 30%;
+    background-color: lightgrey;
+    justify-content: center;
+    border: lightslategrey;
+    border-radius: 5%;
+}
+
+.outputDiv{
+    padding-top: 175px;
+}
