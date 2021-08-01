@@ -4,7 +4,10 @@ html{
 }
 
 body{
-    background-color: lightskyblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
 }
 
 .heading{
@@ -13,13 +16,14 @@ body{
 
 .mainDiv{
     display: flex;
-    height: 100vh;
+    height: 50vh;
     width: 30%;
     background-color: lightgrey;
     justify-content: center;
     border: lightslategrey;
-    border-radius: 5%;
+    border-radius: 3%;
     align-items: center;
+    box-shadow: 5px 10px 10px #bdbdbd;
 }
 
 .outputDiv{
