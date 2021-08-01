@@ -13,14 +13,15 @@ body{
 
 .mainDiv{
     display: flex;
-    height: 600px;
+    height: 100vh;
     width: 30%;
     background-color: lightgrey;
     justify-content: center;
     border: lightslategrey;
     border-radius: 5%;
+    align-items: center;
 }
 
 .outputDiv{
-    padding-top: 175px;
+    padding-top: 50px;
 }

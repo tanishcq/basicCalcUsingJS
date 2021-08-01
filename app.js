@@ -2,6 +2,8 @@ var add = document.getElementById("add");
 var subtract = document.getElementById("subtract");
 var multiply = document.getElementById("multiply");
 var divide = document.getElementById("divide");
+const btnCopy = document.getElementById("btnCopy");
+const clear = document.getElementById("clear");
 
 let x = 0, y = 0;
 
@@ -39,4 +41,15 @@ add.addEventListener("click", addition);
 subtract.addEventListener("click", subtraction);
 multiply.addEventListener("click", multiplication);
 divide.addEventListener("click", division);
+
+btnCopy.addEventListener("click", () =>{
+    out.select();
+    document.execCommand("Copy");
+})
+
+clear.onclick = function(){
+    input1.value = "";
+    input2.value = "";
+    out.value = "";
+}
 
